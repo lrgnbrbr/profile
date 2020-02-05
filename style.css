@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Abel|PT+Mono|Volkhov:400,700&display=swap');
+
+body{
+background-color: #FCF8EC;
+}
+
+div {
+background-color: white;
+margin: 5%;
+text-align: center;
+padding: 5%;
+box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+p {
+font-family: 'Abel', sans-serif;
+color: #0C0C0D
+font-size : 16px;
+line-height: 30px;
+margin: 5%;
+}
+
+a {
+font-family: 'Abel', sans-serif;
+color: #0A32DF
+}
+
+h1, h2 {
+font-family: 'Volkhov', serif;
+color: #0A32DF
+}
+
+
+h1 {
+font-size: 55px;
+margin: auto;
+margin-bottom: -200px;
+margin-left: 130px;
+text-align: left;
+z-index: 2;
+position: absolute;
+}
+
+h2 {
+font-size: 24px
+}
+
+.button {
+margin-top: 100px;
+background: white;
+border: 2px solid #0A32DF;
+text-decoration: none;
+padding: 8px;
+letter-spacing: 1px;
+}
+
+.button:hover {
+margin-top: 100px;
+background: white;
+border-right: 2px solid #0A32DF;
+border-bottom: 2px solid #0A32DF;
+text-decoration: none;
+letter-spacing: 3px;
+padding: 8px;
+}
+
+
+li {
+display: inline-block;
+padding: 10px;
+}
+
+ul {
+padding-left: 0px;
+color: white;
+}
+
+.socials ul {
+list-style: none;
+}
+
+.header {
+background-color: transparent;
+margin: 30px;
+text-align: center;
+padding: 30px;
+box-shadow: 0 0px 0px;
+
+}
+
+.footer {
+background: #0C0C0D;
+margin: auto;
+}
+
+.profile-picture{
+margin-top: 100px;
+box-shadow: 10px 10px #0A32DF;
+width: 500px;
+z-index: 1;
+}
+
+.intro {
+margin-left: 200px;
+margin-right: 200px;
+font-weight: bold;
+margin: 5%;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
